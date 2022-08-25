@@ -52,7 +52,7 @@ android_test {
         "libdexmakerjvmtiagent",
         "libstaticjvmtiagent",
     ],
-
+    compile_multilib: "both",
     min_sdk_version: "Tiramisu",
 
     test_suites: [
