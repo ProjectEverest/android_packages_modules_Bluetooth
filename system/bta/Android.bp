@@ -33,6 +33,9 @@ cc_defaults {
         "BluetoothGeneratedDumpsysDataSchema_h",
     ],
     cflags: ["-DBUILDCFG"],
+    lto: {
+        never: true,
+    },
 }
 
 filegroup {

@@ -23,4 +23,7 @@ cc_defaults {
             },
         },
     },
+    lto: {
+        never: true,
+    },
 }
